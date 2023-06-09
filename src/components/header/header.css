@@ -74,14 +74,30 @@ header{
     }
 
     .cta{
-        margin-top: 2.5rem;
+        margin-top: 1.5rem;
     }
 
     .me{
-        margin-top: 4rem;
+        margin-top: 2rem;
     }
 
-    .header_socials,
+    .header_socials{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        gap: 1rem;
+        bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .header_socials::after {
+        content: "";
+        width: 0;
+        height: 0;
+    }
+
     .scroll_down{
         display: none;
     }

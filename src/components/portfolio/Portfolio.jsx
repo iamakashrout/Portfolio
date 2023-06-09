@@ -12,8 +12,8 @@ const data = [
     id: 1,
     image: IMG1,
     title: "My personal portfolio website",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/iamakashrout/Portfolio",
+    demo: "https://portfolio-phi-six-69.vercel.app/",
   },
   {
     id: 2,

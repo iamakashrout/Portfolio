@@ -88,8 +88,7 @@ header{
         left: 50%;
         transform: translateX(-50%);
         gap: 1rem;
-        bottom: 3rem;
-        margin-bottom: 2rem;
+        margin-top: 1rem;
     }
 
     .header_socials::after {

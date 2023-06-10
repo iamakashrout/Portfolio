@@ -11,13 +11,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_k5rlihi",
-        "template_ekny3r7",
-        form.current,
-        "z9sEmc_IvG5PJ3inR"
-    )
+    emailjs.sendForm(
+      "service_ai7fgbg",
+      "template_gbrx423",
+      form.current,
+      "ujNJXdLak7RVT7jrx"
+    );
     e.target.reset()
   };
 
@@ -28,7 +27,7 @@ const Contact = () => {
       <div className="container contact_container">
         <div className="contact_options">
           <article className="contact_option">
-            <MdMail className='contact_option-icon' />
+            <MdMail className="contact_option-icon" />
             <h4>Email</h4>
             <h5>iamakashrout@gmail.com</h5>
             <a href="mailto:iamakashrout@gmail.com" target="_blank">
@@ -36,11 +35,11 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact_option">
-            <BsWhatsapp className='contact_option-icon' />
+            <BsWhatsapp className="contact_option-icon" />
             <h4>WhatsApp</h4>
             <h5>+91 8376996752</h5>
             <a
-              href="https://web.whatsapp.com/send?phone=+918376996752"
+              href="https://api.whatsapp.com/send?text= &phone=+918376996752"
               target="_blank"
             >
               Send a message
@@ -54,20 +53,16 @@ const Contact = () => {
             placeholder="Your Full Name"
             required
           />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-          />
+          <input type="email" name="email" placeholder="Your Email" required />
           <textarea
             name="message"
             rows="7"
             placeholder="Your Message"
             required
-          >
-          </textarea>
-          <button type='submit' className='btn btn-primary'>Send Message</button>
+          ></textarea>
+          <button type="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
       </div>
     </section>

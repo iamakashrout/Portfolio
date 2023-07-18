@@ -78,7 +78,7 @@ const Skills = () => {
               <BiObjectsHorizontalCenter className="skill_details-icon" />
               <div>
                 <h4>OOPS</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>
@@ -132,14 +132,14 @@ const Skills = () => {
               <SiNextdotjs className="skill_details-icon" />
               <div>
                 <h4>Next.js</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <SiFlask className="skill_details-icon" />
               <div>
                 <h4>Flask</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

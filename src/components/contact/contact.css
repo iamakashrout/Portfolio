@@ -54,6 +54,11 @@ input, textarea{
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-btn{
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width: 1024px) {

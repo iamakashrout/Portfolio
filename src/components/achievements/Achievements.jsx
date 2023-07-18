@@ -15,7 +15,7 @@ const data = [
     image: PIC1,
     title: "Highest CGPA",
     review:
-      "Have maintained a CGPA of 9.88 after three semesters with 10 SGPA in both second and third semesters. This is the highest in entire Computer Science 2025 batch.",
+      "Have maintained a CGPA of 9.89 after four semesters with 10 SGPA in both second and third semesters. This is the highest in entire Computer Science 2025 batch.",
   },
   {
     image: PIC2,
@@ -25,9 +25,9 @@ const data = [
   },
   {
     image: PIC3,
-    title: "750+ Problems on Leetcode",
+    title: "1000+ Problems on Leetcode",
     review:
-      "Solved over 750 problems on Leetcode in the past year involving multiple concepts such as data structures, algorithms, math and design in C++ and Python languages.",
+      "Solved over 1000 problems on Leetcode in the past year involving multiple concepts such as data structures, algorithms, math and design in C++ and Python languages.",
   },
   {
     image: PIC4,

@@ -1,12 +1,20 @@
 import React from 'react'
 import './skills.css'
-import { SiCplusplus, SiJavascript, SiMongodb } from "react-icons/si";
+import {
+  SiCplusplus,
+  SiJavascript,
+  SiMongodb,
+  SiFlask,
+  SiNextdotjs,
+} from "react-icons/si";
 import { FaPython } from 'react-icons/fa'
 import { IoMdSettings} from "react-icons/io";
 import { FaWindows } from 'react-icons/fa'
 import { FaDatabase } from 'react-icons/fa'
 import { FaRobot } from 'react-icons/fa'
 import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from "react-icons/fa";
+import { TbNetwork } from "react-icons/tb";
+import { BiObjectsHorizontalCenter } from "react-icons/bi";
 
 const Skills = () => {
   return (
@@ -59,6 +67,20 @@ const Skills = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
+            <article className="skill_details">
+              <TbNetwork className="skill_details-icon" />
+              <div>
+                <h4>Networking</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="skill_details">
+              <BiObjectsHorizontalCenter className="skill_details-icon" />
+              <div>
+                <h4>OOPS</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
           </div>
         </div>
         <div className="skill_web">
@@ -89,21 +111,35 @@ const Skills = () => {
               <FaNodeJs className="skill_details-icon" />
               <div>
                 <h4>Node.js</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <FaReact className="skill_details-icon" />
               <div>
                 <h4>React.js</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
             <article className="skill_details">
               <SiMongodb className="skill_details-icon" />
               <div>
                 <h4>MongoDB</h4>
-                <small className="text-light">Intermediate</small>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skill_details">
+              <SiNextdotjs className="skill_details-icon" />
+              <div>
+                <h4>Next.js</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
+            <article className="skill_details">
+              <SiFlask className="skill_details-icon" />
+              <div>
+                <h4>Flask</h4>
+                <small className="text-light">Experienced</small>
               </div>
             </article>
           </div>

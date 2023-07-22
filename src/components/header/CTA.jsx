@@ -4,9 +4,9 @@ const CTA = () => {
   return (
     <div className="cta">
       <a
-        href="https://drive.google.com/file/d/1hjb1UeFgtd3HOant2fLJHTBKFiiaetms/view"
-        rel='noreferrer'
-        target='_blank'
+        href="https://drive.google.com/file/d/14w7rrUOnSJPKcUn5-uALGjHrs4GR4TzS/view"
+        rel="noreferrer"
+        target="_blank"
         className="btn"
       >
         View Resume
